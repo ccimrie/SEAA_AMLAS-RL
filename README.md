@@ -5,7 +5,7 @@ The data generated and used for producing the results are included in the repo a
 ## Adding custom environments
 New environments had to be constructed to include minor changes. These are found in the safety_gym_envs; it is recommended to copy these into safety_gymnasium/tasks/safe_navigation/goal and make changes in the following files:
 
-Adapt line 135 in <code>safety_gymnasium/\__init\__.py</code>:
+Adapt line 135 in <code>safety_gymnasium/`__init`__.py</code>:
 
 <code>goal_tasks = {'Goal0': {}, 'Goal1': {}, 'Goal2': {}}</code> to <code>goal_tasks = {'Goal0': {}, 'Goal1': {}, 'Goal2': {}, 'GoalNormal1': {}, 'GoalCloseTest1': {}}</code>
 
