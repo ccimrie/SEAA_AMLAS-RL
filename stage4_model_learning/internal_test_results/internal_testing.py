@@ -10,7 +10,7 @@ from multiprocessing import Pool
 #import tensorflow as tf
 
 def testAgent(yaml_file, test_results_file, seed):
-    env_id = 'SafetyCarGoal1-v0'
+    env_id = 'SafetyCarGoalNormal1-v0'
     energy=250
     # render_mode='human'
     render_mode=''

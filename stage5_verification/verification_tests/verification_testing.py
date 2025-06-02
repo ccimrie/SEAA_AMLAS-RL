@@ -70,10 +70,10 @@ def testAgent(yaml_file, test_results_file, seed, env_id, TT):
 yaml_filename='ddpg_architecture.yaml'
 general_verification_results_filename='results/results_general.npz'
 seed=np.random.randint(0,10e6)
-general_scenarios_env_id='SafetyCarGoal1-v0-general'
+general_scenarios_env_id='SafetyCarGoalNormal1-v0'
 testAgent(yaml_filename,verification_results_filename,seed, general_scenarios_env_id, 500)
 
 seed=np.random.randint(0,10e6)
 targeted_verification_results_filename='results/results_target_scenarios.npz'
-target_scenarios_env_id='SafetyCarGoal1-v0-target-scenarios'
+target_scenarios_env_id='SafetyCarGoalCloseTest1-v0'
 testAgent(yaml_filename, targeted_verification_results_filename, seed, target_scenarios_env_id, 250)

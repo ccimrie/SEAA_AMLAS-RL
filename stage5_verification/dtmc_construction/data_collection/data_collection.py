@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 import time
 import os
 from markov_model import MarkovModel
-
+import sys
 import pickle
 
 def genTransitions(yaml_file, dict_filename):
-    env_id = 'SafetyCarGoal1-v0-general'
+    env_id = f'SafetyCarGoalNormal1-v0'
     env=safety_gymnasium.make(env_id, max_episode_steps=250)
     env.task.mechanism_conf.continue_goal=False
     ddpg_controller=DDPG(yaml_file)

@@ -8,7 +8,7 @@ import os
 import yaml
 
 def trainAgent(yaml_file, reward_filename, seed):
-    env_id = 'SafetyCarGoal1-v0-general'
+    env_id = 'SafetyCarGoalNormal1-v0'
     reward_gain=r_ind
     
     cost_hazard_gain=c1_ind
