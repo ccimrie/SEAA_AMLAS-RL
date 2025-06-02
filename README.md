@@ -9,7 +9,7 @@ Adapt line 135 in <code>safety_gymnasium/`__init`__.py</code>:
 
 <code>goal_tasks = {'Goal0': {}, 'Goal1': {}, 'Goal2': {}}</code> to <code>goal_tasks = {'Goal0': {}, 'Goal1': {}, 'Goal2': {}, 'GoalNormal1': {}, 'GoalCloseTest1': {}}</code>
 
-Add the following imports <code>safety_gymnasium/tasks/__init__.py</code>:
+Add the following imports <code>safety_gymnasium/tasks/`__init`__.py</code>:
 
 <code>from safety_gymnasium.tasks.safe_navigation.goal.goal_normal import GoalNormalLevel1</code>
 
