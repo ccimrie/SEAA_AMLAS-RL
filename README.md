@@ -7,7 +7,7 @@ New environments had to be constructed to include minor changes. These are found
 
 Adapt line 135 in <code>safety_gymnasium/__init__.py</code>:
 
-<code>goal_tasks = {'Goal0': {}, 'Goal1': {}, 'Goal2': {}} to goal_tasks = {'Goal0': {}, 'Goal1': {}, 'Goal2': {}, 'GoalNormal1': {}, 'GoalCloseTest1': {}}</code>
+<code>goal_tasks = {'Goal0': {}, 'Goal1': {}, 'Goal2': {}}</code> to <code>goal_tasks = {'Goal0': {}, 'Goal1': {}, 'Goal2': {}, 'GoalNormal1': {}, 'GoalCloseTest1': {}}</code>
 
 Add the following imports <code>safety_gymnasium/tasks/__init__.py</code>:
 
